@@ -17,6 +17,8 @@ def count_vowels(text):
         if char in vowels :
             count += 1
             return count
+        # print
+        # hello
 print(count_vowels ("proggramming"))
 
 def highest_scorer (scores_dict):
