@@ -21,17 +21,20 @@ def count_vowels(text):
         # hello
 print(count_vowels ("proggramming"))
 
-def highest_scorer (scores_dict):
-            if not scores_dict:
-                return None
-            highest_score = None 
-            highest_score = -float("inf")
-            for student ,score in scores_dict.items():
-                if score > highest_score:
-                    highest_score = score
-                    highest_student = student
-                    return highest_student
-                print((highest_student))
+def highest_scorer(scores_dict):
+    if not scores_dict:
+       return None
+    highest_score = float('-inf')
+    highest_student= None
+    for student, score in scores_dict.items():
+         if score > highest_score:
+             highest_score = score
+             highest_student = student
+    return highest_student
+scores ={"alice" : 85, "Bob": 92, "charle" : 78}
+print (highest_scorer(scores))
+
+ 
 
 
 
