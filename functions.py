@@ -41,7 +41,6 @@ print (highest_scorer(scores))
 
 
 
-
             
 
     
